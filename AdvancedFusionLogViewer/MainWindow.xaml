@@ -1,0 +1,5 @@
+﻿<controls:Window xmlns="https://github.com/avaloniaui"
+                               xmlns:controls="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls"
+                               MinWidth="500" MinHeight="300" Title="Advanced Fusion Log Viewer">
+    <controls:TextBlock>Hello world!</controls:TextBlock> 
+</controls:Window>

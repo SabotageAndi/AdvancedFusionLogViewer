@@ -1,0 +1,8 @@
+﻿<avalonia:Application xmlns="https://github.com/avaloniaui"
+             xmlns:avalonia="clr-namespace:Avalonia;assembly=Avalonia.Controls"
+             xmlns:styling="clr-namespace:Avalonia.Markup.Xaml.Styling;assembly=Avalonia.Markup.Xaml">
+  <avalonia:Application.Styles>
+    <styling:StyleInclude Source="resm:Avalonia.Themes.Default.DefaultTheme.xaml?assembly=Avalonia.Themes.Default"/>
+    <styling:StyleInclude Source="resm:Avalonia.Themes.Default.Accents.BaseLight.xaml?assembly=Avalonia.Themes.Default"/>
+  </avalonia:Application.Styles>
+</avalonia:Application>
