@@ -1,8 +1,10 @@
-﻿using Avalonia;
+﻿using AdvancedFusionLogViewer.Models.Logic;
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Common;
 
-namespace AdvancedFusionLogViewer
+namespace AdvancedFusionLogViewer.Views
 {
     public class MainWindow : Window
     {
@@ -10,6 +12,8 @@ namespace AdvancedFusionLogViewer
         {
             this.InitializeComponent();
             this.AttachDevTools();
+
+            var x = new LogDirectoryWalker().Load(new Directory(@"C:\temp\fusionlog"));
         }
 
         private void InitializeComponent()

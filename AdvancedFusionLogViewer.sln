@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F6FB08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFusionLogViewer", "AdvancedFusionLogViewer\AdvancedFusionLogViewer.csproj", "{D6812AD2-0B8D-40CD-B987-E8AC206469C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{FC81AF53-B11D-4202-9E64-CD309D59B01C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{D6812AD2-0B8D-40CD-B987-E8AC206469C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6812AD2-0B8D-40CD-B987-E8AC206469C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6812AD2-0B8D-40CD-B987-E8AC206469C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC81AF53-B11D-4202-9E64-CD309D59B01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC81AF53-B11D-4202-9E64-CD309D59B01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC81AF53-B11D-4202-9E64-CD309D59B01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC81AF53-B11D-4202-9E64-CD309D59B01C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
