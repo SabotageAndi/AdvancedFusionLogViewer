@@ -1,8 +1,8 @@
-﻿using AdvancedFusionLogViewer.Models.Logic;
+﻿using NFileSystem;
+using AdvancedFusionLogViewer.Models.Logic;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using Common;
 
 namespace AdvancedFusionLogViewer.Views
 {

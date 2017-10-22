@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{944B7F85-440D-4A75-91D8-98DD07FE5AAC}"
 EndProject
@@ -10,9 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F6FB08
 		.nuget\nuget.config = .nuget\nuget.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFusionLogViewer", "AdvancedFusionLogViewer\AdvancedFusionLogViewer.csproj", "{D6812AD2-0B8D-40CD-B987-E8AC206469C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFusionLogViewer", "AdvancedFusionLogViewer\AdvancedFusionLogViewer.csproj", "{D6812AD2-0B8D-40CD-B987-E8AC206469C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{FC81AF53-B11D-4202-9E64-CD309D59B01C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{FC81AF53-B11D-4202-9E64-CD309D59B01C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFileSystem", "NFileSystem\NFileSystem.csproj", "{FC555121-42AD-4136-AE66-B1ED01458F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFileSystem.Test", "NFileSystem.Test\NFileSystem.Test.csproj", "{42AF3CD5-C641-4386-A7C4-8A3CED280A04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +32,14 @@ Global
 		{FC81AF53-B11D-4202-9E64-CD309D59B01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC81AF53-B11D-4202-9E64-CD309D59B01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC81AF53-B11D-4202-9E64-CD309D59B01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC555121-42AD-4136-AE66-B1ED01458F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC555121-42AD-4136-AE66-B1ED01458F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC555121-42AD-4136-AE66-B1ED01458F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC555121-42AD-4136-AE66-B1ED01458F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AF3CD5-C641-4386-A7C4-8A3CED280A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AF3CD5-C641-4386-A7C4-8A3CED280A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AF3CD5-C641-4386-A7C4-8A3CED280A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AF3CD5-C641-4386-A7C4-8A3CED280A04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

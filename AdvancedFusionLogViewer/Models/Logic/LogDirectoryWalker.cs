@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using AdvancedFusionLogViewer.Models.Entities;
-using Common;
+using NFileSystem;
+
 
 namespace AdvancedFusionLogViewer.Models.Logic
 {
@@ -18,7 +19,7 @@ namespace AdvancedFusionLogViewer.Models.Logic
 
         private IReadOnlyList<Process> LoadLogCategory(LogCategory logCategory, Directory logDirectory)
         {
-            var rootDirectory = logDirectory.SubDirectory(logCategory.ToString());
+            var rootDirectory = logDirectory.GetSubDirectory(logCategory.ToString());
 
             var subDirectories = rootDirectory.GetSubDirectories();
 

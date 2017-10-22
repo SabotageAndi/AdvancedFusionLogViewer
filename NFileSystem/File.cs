@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common
+namespace NFileSystem
 {
     public class File
     {
@@ -10,8 +10,8 @@ namespace Common
         public File(string fullPathAndFilename)
         {
             FullPathAndFilename = fullPathAndFilename;
-            _fileNameLazy = new Lazy<string>(() => System.IO.Path.GetFileName(FullPathAndFilename));
-            _path = new Lazy<string>(() => System.IO.Path.GetPathRoot(FullPathAndFilename));
+            _fileNameLazy = new Lazy<string>(() => Functions.Path.GetFileName(FullPathAndFilename));
+            _path = new Lazy<string>(() => Functions.Path.GetPathRoot(FullPathAndFilename));
         }
 
         public string FullPathAndFilename { get; }
